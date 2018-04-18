@@ -1,0 +1,196 @@
+html,body,p,ul,li,ol,h1,h2,h3,h4,h5,h6,dt,dd{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+body {
+	font-size:20px;
+	color:white;
+	overflow-x: hidden;
+	/*text-shadow: 0 1px 0 black,0 0  5px black;*/
+}
+
+.nav{
+	width: 1920px;
+	height: 965px;
+	background-image: url('../images/tim_bg_1.jpg');
+	position:relative;
+}
+
+.toppic{
+	padding-top: 40px;
+	height: 75px;
+	width:1170px;
+	/*background-color:red;*/
+	margin-left: 100px;
+	line-height: 75px;
+	text-align: center;
+}
+.logoLink {
+	text-indent: -999999em;
+	display: block;
+	width: 93px;
+	height: 44px;
+	background-image:url('../images/imlogo_b.png');
+	background-repeat: no-repeat;
+}
+.topside{
+	float:left;
+}
+.topside ul{
+	height: 75px;
+	width: 585px;
+	position: relative;
+}
+.topside li{
+	width: 75px;
+	height: 75px;
+	float:left;
+	margin-left: 40px;
+	position: relative;
+	left:100px;
+	top:-84px;	
+}
+.topside li:first-child{
+	background-color:#12b7f5;
+}
+.excel{
+	width: 1238px;
+	height: 358px;
+	position: absolute;
+	overflow: hidden;
+	bottom:0;
+	left:0;
+}
+.excel img{
+	width: 1238px;
+	height: 358px;
+}
+
+.content1{
+	height: 321px;
+	background: url('../images/brand.png') no-repeat center top;
+}
+.bg1{
+	height:800px;
+	background-image: url('../images/bg1_1600.jpg');
+	background-attachment: fixed;
+}
+.content2{
+	height: 584px;
+	position: relative;
+
+}
+.content2 .big{
+	width: 664px;
+	height: 763px;
+	background-image: url('../images/pic1.png');
+	background-repeat: no-repeat;
+	background-position: 100px bottom;
+	position: absolute;
+	bottom:0;
+}
+.content2 .small{
+	width: 487px;
+	height: 107px;
+	background-image: url('../images/qcall_txt.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	top:40px;
+	left:664px;
+}
+.content2 .small .txt{
+	color:black;
+	margin-top: 130px;
+}
+.content2 .small .txt li{
+	float:left;
+
+}
+.content2 .small .txt li:nth-child(1){
+	width: 293px;
+	height: 46px;
+	background-image: url('../images/qcall_figs.png');
+	background-repeat: no-repeat;
+	margin-top: 60px;
+
+}
+.bg2{
+	height:800px;
+	background-image: url('../images/avds.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.content3{
+	height: 584px;
+	position: relative;
+}
+.content3 .text{
+	width: 487px;
+	height: 107px;
+	position: absolute;
+	top:100px;
+	left:100px;
+	color:black;
+}
+.content3 .pic{
+	width: 597px;
+	height: 330px;
+	background-image: url('../images/pic2.png');
+	position: absolute;
+	left:664px;
+	top:100px;
+}
+.content3 li{
+	float:left;
+	margin-right: 20px;
+}
+.bg3{
+	height:800px;
+	background-image: url('../images/bg3_1600.jpg');
+	background-attachment: fixed;
+}
+.content4{
+	height: 584px;
+	position: relative;
+}
+.content4 .phone{
+	width: 444px;
+	height: 506px;
+	background-image: url('../images/pic3.png');
+	background-repeat: no-repeat;
+	background-position: 100px bottom;
+	position: absolute;
+	bottom:0;
+}
+.content4 .txt{
+	color:black;
+	margin-top: 130px;
+	float:right;
+}
+.content4 .right .txt li{
+	float:right;
+	margin-right: 40px;
+
+}
+.content4 .right .txt li:nth-child(1){
+	width: 293px;
+	height: 46px;
+	background-image: url('../images/qcall_figs.png');
+	background-repeat: no-repeat;
+	margin-top: 60px;
+
+}
+.footer{
+	width: 100%;
+	height: 348px;
+	background: #2a2a2a;
+}
+.footer .dd a{
+	display: block;
+}
+.dt{
+	width: 200px;
+	float:left;
+}
